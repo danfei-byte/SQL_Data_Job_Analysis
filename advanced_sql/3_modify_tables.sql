@@ -40,3 +40,4 @@ COPY skills_job_dim
 FROM '/Users/dynamite/Desktop/DA/sql_da/Project_1/skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
+
