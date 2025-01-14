@@ -6,8 +6,9 @@ Thought process:
 - Remove the NULL values in the average yearly salaries field
 */
 
--- Remote data analyst job market
-SELECT job_title, 
+-- Remote and hybrid data analyst job market
+SELECT job_id,
+        job_title, 
         job_title_short, 
         job_location, 
         job_posted_date :: DATE AS posted_date, 
@@ -24,7 +25,8 @@ ORDER BY salary_year_avg DESC
 LIMIT 10;
 
 -- Non remote data analyst job market
-SELECT job_title, 
+SELECT job_id,
+        job_title, 
         job_title_short, 
         job_location, 
         job_posted_date :: DATE AS posted_date, 
@@ -39,4 +41,5 @@ WHERE
     AND salary_year_avg IS NOT NULL
 ORDER BY salary_year_avg DESC
 LIMIT 10;
+
 
