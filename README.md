@@ -145,7 +145,8 @@ ORDER BY Avg_salary DESC,
 LIMIT 20;
 ```
 <img src="visuals/query_5.png" alt="data description" width="800">
-- ** Skills with High Demand but Slightly Lower Salaries:** Some skills have **exceptionally high demand** but slightly lower average salaries. These skills are still optimal to learn because they are foundational for advanced roles and widely used across industries (Spark, Snowflake, Databricks, Pandas, Hadoop).
+
+- **Skills with High Demand but Slightly Lower Salaries:** Some skills have **exceptionally high demand** but slightly lower average salaries. These skills are still optimal to learn because they are foundational for advanced roles and widely used across industries (Spark, Snowflake, Databricks, Pandas, Hadoop).
 - **Niche Skills with High Salaries:** Some skills (PyTorch, TensorFlow, Phoenix, and Perl) have lower demand but exceptionally high salaries, indicating they are niche or specialized. Learning these can help differentiate you and open doors to specialized roles. For instance, both **PyTorch** and **TensorFlow** are frameworks for AI and machine learning, critical for transitioning into data science or ML engineering roles.
 - **Skills Relevant to Cloud Platforms and Infrastructure:** Many skills in the list are tied to cloud platforms and data infrastructure, reflecting the growing demand for cloud-based analytics and distributed systems (GCP, Databricks, Snowflake, and Hadoop).
 - **Skills for Data Processing and Automation:** Skills like Airflow, Pandas, and PySpark are critical for data processing, ETL pipelines, and automation. These skills are highly valued in roles requiring efficient handling of large datasets.
